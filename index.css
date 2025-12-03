@@ -50,7 +50,7 @@
 }
 .menu ul li a:hover{
         color:red;
-        transform:scale(1.5);
+        transform:scale(0.5);
 }
 @media(max-width:576px;){
         .header{
