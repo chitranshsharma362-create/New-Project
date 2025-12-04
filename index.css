@@ -58,13 +58,13 @@
 }
 .menu .menubar ul li .submenu{
         height:auto;
-        width:80px;
+        width:auto;
         display:none;
         position:absolute;
         top:6%;
         left:auto;
         background-color:white;
-        /* min-width:80px; */
+        min-width:120px;
         border:1px solid black;
         z-index:10;
 }
