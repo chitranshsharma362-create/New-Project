@@ -59,8 +59,8 @@
 .menu .menubar ul li .submenu{
         display:none;
         position:absolute;
-        top:10%;
-        left:0;
+        top:6%;
+        left:auto;
         background-color:white;
         min-width:120px;
         border:1px solid black;
