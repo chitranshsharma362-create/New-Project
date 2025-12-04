@@ -88,15 +88,7 @@
         background-color:#f2f2f2;
         color:red;
 }
-.menu .menubar ul li .leftsubmenu{
-        height:auto;
-        width:80px;
-        display:none;
-        position:absolute;
-        top:6%;
-        right:auto;
-        background-color:white;
-        /* min-width:80px; */
-        border:1px solid black;
-        z-index:10;
+.menu .menubar ul li.lastsub .submenu{
+        right:0;
+        left:auto;
 }
