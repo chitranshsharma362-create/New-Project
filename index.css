@@ -46,7 +46,7 @@
 }
 .menu .menubar ul li a{
         text-decoration:none;
-        height:10%;
+        height:5%;
         color:black;
         font-size:1.5vw;
         position:absolute;
@@ -64,7 +64,7 @@
         width:auto;
         display:none;
         position:absolute;
-        top:5%;
+        top:10%;
         left:auto;
         background-color:transparent;
         max-width:150px;
