@@ -65,7 +65,7 @@
         top:6%;
         left:auto;
         background-color:transparent;
-        man-width:120px;
+        min-width:120px;
         border:1px solid black;
         z-index:10;
 }
@@ -78,7 +78,7 @@
         text-decoration:none;
         font-size:1vw;
         position:relative;
-        /* display:block; */
+        display:block;
         padding:5px 12px;
         white-space: nowrap;
 }
