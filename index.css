@@ -84,7 +84,7 @@
         padding:5px 12px;
         white-space: nowrap;
         overflow:hidden;
-        text-overflow:ellpsis;
+        text-overflow:ellipsis;
 }
 .menu .menubar ul li:hover .submenu{
         display:block;
