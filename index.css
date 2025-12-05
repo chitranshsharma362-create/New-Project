@@ -88,7 +88,7 @@
 .menu .menubar ul li .submenu li a:hover{
         background-color:#f2f2f2;
         color:red;
-        transform:scale(1.2);
+        /* transform:scale(1.2); */
 }
 .menu .menubar ul li.lastsub .submenu{ */
         right:auto;
