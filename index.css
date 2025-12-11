@@ -55,10 +55,10 @@
         font-size:1.5vw;
         position:absolute;
 }
-.menu ul li a:hover{
-        color:red;
-        /* text-decoration:underline red; */
-}
+/*.menu ul li a:hover{
+         color:red; 
+         text-decoration:underline red; 
+ } */
 @media(max-width:576px;){
         .header{
                 height:7%;
