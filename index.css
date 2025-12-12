@@ -44,10 +44,6 @@
         padding-bottom:2.5%;
         /* height:100%; */
 }
-.menu .menubar ul .underline_current a{
-        text-decoration:underline red;
-        txet-decoration-color: red;
-}
 .menu .menubar ul li a{
         text-decoration:none;
         height:10%;
@@ -55,6 +51,11 @@
         font-size:1.5vw;
         position:absolute;
 }
+.menu .menubar ul .underline_current > a{
+        text-decoration:underline red;
+        txet-decoration-color: red;
+}
+
 /*.menu ul li a:hover{
          color:red; 
          text-decoration:underline red; 
