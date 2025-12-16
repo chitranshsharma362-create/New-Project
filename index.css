@@ -70,8 +70,9 @@
         width:auto;
         display:none;
         position:absolute;
-        top:6%;
-        left:auto;
+        top:100%;
+        left:50%;
+        transform: translateX(-50%);
         background-color:Cyan;
         max-width:150px;
         border:1px solid black;
