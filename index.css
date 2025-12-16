@@ -165,24 +165,21 @@
                 border-radius:2px;
                 box-shadow:0 7px 0 white, 0 -7px 0 white;
         }
-        #menu{
-             position: fixed;
-              top: 0;
-           right: -200px;
-            width: 200px;
-           height: 100vh;
-                background: black;
-        transition: 0.3s;
-}
+       #menu{
+                position: fixed;
+                top: 5%;
+                right: -200px;
+                width: 1800px;
+                height: 50vh;
+                background: green;
+                transition: 0.3s;
+      }
 
-#menu a{
-  display: block;
-  color: white;
-  padding: 10px;
-  text-decoration: none;
-}
-
-
-        
-        
+       #menu a{
+               display: flex;
+               flex-direction:column;
+               color: white;
+               padding: 10px;
+               text-decoration: none;
+    }
 }
