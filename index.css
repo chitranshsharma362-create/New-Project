@@ -100,7 +100,7 @@
         color:White;
         /* transform:scale(1.2); */
 }
-.menu .menubar ul li.lastsub .submenu{ */
+.menu .menubar ul li.lastsub .submenu{ 
         right:auto;
          /* left:auto; */
 }
@@ -153,9 +153,9 @@
                 
         }
 
-        .header .menu .menubar ul li a{
+        /* .header .menu .menubar ul li a{
                 display:none;
-        }
+        } */
 
         .header .menu .mobilebar .hamburger span{
                 display:block;
