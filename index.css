@@ -96,7 +96,7 @@
         overflow:hidden;
         text-overflow:ellipsis;
 }
-.menu .menubar ul li:hover .submenu{
+.menu .menubar ul li a:hover .submenu{
         display:block;
 }
 .menu .menubar ul li .submenu li a:hover{
