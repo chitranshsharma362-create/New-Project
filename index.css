@@ -153,6 +153,10 @@
                 
         }
 
+        .header .menu .menubar ul li a{
+                display:none;
+        }
+
         .header .menu .mobilebar .hamburger span{
                 display:block;
                 width: 20px;
