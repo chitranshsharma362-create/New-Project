@@ -176,8 +176,8 @@
       }
 
        #menu a{
-               display: flex;
-               flex-direction:column;
+               display: block;
+               /* flex-direction:column; */
                color: white;
                padding: 10px;
                text-decoration: none;
