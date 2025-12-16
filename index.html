@@ -8,5 +8,20 @@
   <body>
     <div id="header"> </div>
     <h1> Hello world </h1>
+    <script>
+      let open = false;
+
+function menuToggle(){
+    let menu = document.getElementById("menu");
+
+    if(open == false){
+        menu.style.right = "0";
+        open = true;
+    }else{
+        menu.style.right = "-200px";
+        open = "false";
+    }
+}
+    </script>
   </body>
 </html>
