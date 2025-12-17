@@ -32,7 +32,7 @@
          dv.innerHTML= '<span></span>';
          mobileBar.appendChild(dv);
 
-         dv.addEventListner("click", function(e) {
+         dv.addEventListener("click", function(e) {
           e.stopPropagation();
           menu.classList.toggle("mobile-open");
          });
