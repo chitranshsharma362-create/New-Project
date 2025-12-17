@@ -153,6 +153,17 @@
                 
         }
 
+        .header .menu.mobile-open .menubar ul{
+                display:flex;
+                background:grey;
+                position: absolute;
+                top:5%;
+                left: 0;
+                right: 0;
+                z-index: 9;
+                flex-direction: column;
+        }
+
         /* .header .menu .menubar ul li a{
                 display:none;
         } */
