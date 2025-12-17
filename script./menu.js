@@ -27,10 +27,10 @@
         if(mobileBar && !mobileBar.querySelector(".hamburger")){
          const dv = document.createElement("div");
          dv.className = "hamburger";
-         dv.setAttribude("area-label", "Toggle menu");
+         dv.setAttribude("aria-label", "Toggle menu");
          dv.setAttribute("tabindex" , "0" );
          dv.innerHTML= '<span></span>';
-         mobilebar.appendChild(dv);
+         mobileBar.appendChild(dv);
          
         }
        }
