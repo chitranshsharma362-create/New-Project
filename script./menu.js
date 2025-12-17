@@ -19,5 +19,20 @@
         if (linkPage == currentPage){
           link.closest("li").classList.add("underline_current");
         }
+       if (window.innerWidth <=576) {
+        const menu = document.querySelector(".menu");
+        const menubar = document.querySelector(".menu .menubar ul");
+        const mobilebar = document.querySelector(".menu .mobilebar");
+
+        if(mobilebar && !mobilebar.querySelector(".hamburger")){
+         const dv = document.createElement("div");
+         dv.className = "hamburger";
+         dv.setAttribude("area-label", "Toggle menu");
+         dv.setAttribute("tebindex" , "0" );
+         dv.innerHTML= '<span></span>';
+         mobilebar.appendChild(dv);
+         
+        }
+       }
       });
    });
