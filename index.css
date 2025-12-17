@@ -124,11 +124,7 @@
                 width:50%;
                 background-color:white;
                 justify-content:none;
-                padding-left:20%;
-        }
-
-        .header .logo a img{
-                left:5%;
+                padding-left:5%;
         }
 
         .header .menu{
