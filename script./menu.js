@@ -27,7 +27,7 @@
         if(mobileBar && !mobileBar.querySelector(".hamburger")){
          const dv = document.createElement("div");
          dv.className = "hamburger";
-         dv.setAttribude("aria-label", "Toggle menu");
+         dv.setAttribute("aria-label", "Toggle menu");
          dv.setAttribute("tabindex" , "0" );
          dv.innerHTML= '<span></span>';
          mobileBar.appendChild(dv);
