@@ -149,8 +149,8 @@
                 
         }
 
-        .header .menu .menubar ul li a{
-                color:black;
+        .header .menu .menubar ul li {
+                display:none;
         }
 
         .header .menu.mobile-open .menubar ul{
