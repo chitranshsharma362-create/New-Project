@@ -158,15 +158,11 @@
                 background:grey;
                 position: absolute;
                 top:5%;
-                left: 0;
+                left: auto;
                 right: 0;
                 z-index: 9;
                 flex-direction: column;
         }
-
-        /* .header .menu .menubar ul li a{
-                display:none;
-        } */
 
         .header .menu .mobilebar .hamburger span{
                 display:block;
