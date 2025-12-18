@@ -23,7 +23,7 @@
         const menu = document.querySelector(".menu");
         const menuBar = document.querySelector(".menu .menubar ul");
         const mobileBar = document.querySelector(".menu .mobilebar");
-        const anchor = document.querSelector(".menu .mobilebar ul li a");
+        // const anchor = document.querSelector(".menu .mobilebar ul li a");
 
         if(mobileBar && !mobileBar.querySelector(".hamburger")){
          const dv = document.createElement("div");
@@ -37,7 +37,7 @@
          dv.addEventListener("click", function(e) {
           e.stopPropagation();
           menu.classList.toggle("mobile-open");
-          anchor.style.display = "block";
+          // anchor.style.display = "block";
          });
          
         }
