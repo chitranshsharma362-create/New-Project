@@ -37,6 +37,7 @@
          dv.addEventListener("click", function(e) {
           e.stopPropagation();
           menu.classList.toggle("mobile-open");
+          anchor.style.display = "block";
          });
          
         }
