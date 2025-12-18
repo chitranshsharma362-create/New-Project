@@ -176,21 +176,4 @@
                 border-radius:2px;
                 box-shadow:0 7px 0 white, 0 -7px 0 white;
         }
-       #menu{
-                position: fixed;
-                top: 5%;
-                right: -200px;
-                width: 180px;
-                height: 50vh;
-                background: green;
-                transition: 0.3s;
-      }
-
-       #menu a{
-               display: block;
-               /* flex-direction:column; */
-               color: white;
-               padding: 10px;
-               text-decoration: none;
-    }
 }
