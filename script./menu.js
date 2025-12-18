@@ -23,7 +23,7 @@
         const menu = document.querySelector(".menu");
         const menuBar = document.querySelector(".menu .menubar ul");
         const mobileBar = document.querySelector(".menu .mobilebar");
-        // const anchor = document.querSelector(".menu .mobilebar ul li a");
+        const anchor = document.querSelector(".menu .mobilebar ul li a");
 
         if(mobileBar && !mobileBar.querySelector(".hamburger")){
          const dv = document.createElement("div");
