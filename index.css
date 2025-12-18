@@ -149,7 +149,7 @@
                 
         }
 
-        .header .menu .menubar ul li {
+        .header .menu .menubar ul li a {
                 display:none;
         }
 
