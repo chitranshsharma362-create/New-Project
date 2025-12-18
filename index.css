@@ -149,9 +149,9 @@
                 
         }
 
-        .header .menu .menubar ul li a{
+        /* .header .menu .menubar ul li a{
                 color:transparent;
-        }
+        } */
 
         .header .menu.mobile-open .menubar ul{
                 display:flex;
