@@ -148,6 +148,10 @@
                 
         }
 
+        .header .menu .menubar ul li a{
+                display:none;
+        }
+
         .header .menu.mobile-open .menubar ul{
                 display:flex;
                 background:grey;
