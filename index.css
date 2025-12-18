@@ -150,7 +150,7 @@
         }
 
         .header .menu .menubar ul li a{
-                display:none;
+                color:transparent;
         }
 
         .header .menu.mobile-open .menubar ul{
