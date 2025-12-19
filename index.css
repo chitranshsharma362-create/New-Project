@@ -173,7 +173,7 @@
                 box-shadow:0 7px 0 white, 0 -7px 0 white;
         }
 
-        .header .menu .mobilebar .hamburger span:hover{
+        .header .menu .mobilebar .hamburger:hover{
                 background:#F7EFED;
         }
 }
