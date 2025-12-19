@@ -149,7 +149,7 @@
                 
         }
 
-        .header .menu .menubar ul li  {
+        .header .menu .menubar {
                 display:none;
         }
 
@@ -171,9 +171,5 @@
                 background:white;
                 border-radius:2px;
                 box-shadow:0 7px 0 white, 0 -7px 0 white;
-        }
-
-        .header .menu .mobilebar .hamburger:hover{
-                background:#F7EFED;
         }
 }
