@@ -38,7 +38,7 @@
           e.stopPropagation();
           menu.classList.toggle("mobile-open");
           e.stopPropagation();
-          anchor.style.display = "block";
+          anchor.style.flexDirection = "column";
          });
         }
        }
