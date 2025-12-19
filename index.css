@@ -172,4 +172,8 @@
                 border-radius:2px;
                 box-shadow:0 7px 0 white, 0 -7px 0 white;
         }
+
+        .header .menu .mobilebar .hamburger span:hover{
+                background:#F7EFED;
+        }
 }
