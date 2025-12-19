@@ -38,6 +38,7 @@
           e.stopPropagation();
           menu.classList.toggle("mobile-open");
           e.stopPropagation();
+          anchor.style.display = "flex";     
           anchor.style.flexDirection = "column";
          });
         }
