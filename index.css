@@ -96,12 +96,12 @@
         background-color:DarkCyan;
         color:White;
 }
-.menu .menubar ul li.lastsub .submenu{ 
+/* .menu .menubar ul li.lastsub .submenu{ 
         right:auto;
 }
 .menu .menubar ul li.lastsub{
         padding-right:50px;
-}
+} */
 
 
 @media(max-width:576px){
