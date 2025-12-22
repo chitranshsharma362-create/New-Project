@@ -37,12 +37,8 @@
          dv.addEventListener("click", function(e) {
           e.stopPropagation();
           menu.classList.toggle("mobile-open");
-          if (menu.classList.conatins("mobile-open")){
           anchor.style.display = "flex";     
           anchor.style.flexDirection = "column";
-          } else{
-           anchor.style.display = "none";
-          }
          });
         }
        }
