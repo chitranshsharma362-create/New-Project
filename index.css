@@ -166,7 +166,8 @@
 
         .header .menu .menubar ul{
                 height:auto;
-                width:100%;
+                width:50%;
+                right:0;
         }
 
         .header .menu .menubar ul li{
