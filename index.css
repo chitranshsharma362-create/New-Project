@@ -248,9 +248,9 @@ button:hover{
                width: 320px;
                margin: 80px auto;
                padding: 20px;
-               background: white;
+               background: D2D4D6;
                border-radius: 10px;
-               border:1px solid black;
+               /* border:1px solid black; */
         }
 
        h2{
