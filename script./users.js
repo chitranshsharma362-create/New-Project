@@ -40,7 +40,8 @@ document.getElementById("form").addEventLiastner("submit" , async (e) => {
 ])
 
 if(insertError){
-  console.error("registration failed");
+  console.error("insertError");
+  alert("registration failed");
   return;
 }
 
