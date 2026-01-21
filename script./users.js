@@ -40,7 +40,7 @@ document.getElementById("form").addEventListener("submit" , async (e) => {
 ]);
 
 if (insertError){
-  console.error("insertError");
+  console.error(insertError);
   alert("registration failed");
   return;
 }
